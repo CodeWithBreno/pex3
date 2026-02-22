@@ -6,6 +6,18 @@ Projeto de **extensão universitária** para apoio à enfermeira em Home Care / 
 
 ---
 
+## Visualizar a saída sem executar (para o professor)
+
+O repositório inclui o notebook **já executado** com todas as saídas (tabelas e gráficos) preenchidas:
+
+- **`diagnostico_saude_eda_executado.ipynb`**
+
+O professor pode **apenas abrir esse arquivo** (no GitHub, no VS Code, no Jupyter ou em qualquer visualizador de `.ipynb`) para ver o resultado completo da análise exploratória **sem precisar rodar nenhum código**. Basta abrir o arquivo e rolar as células para visualizar as tabelas descritivas, a matriz de correlação, a lista de pacientes em risco e os gráficos de série temporal e dispersão.
+
+Se preferir executar o projeto no próprio ambiente, siga os passos abaixo.
+
+---
+
 ## Pré-requisitos
 
 - **Python 3.8** ou superior  
@@ -107,7 +119,8 @@ Depois, abra **`diagnostico_saude_eda_executado.ipynb`** para ver todas as tabel
 | `requirements.txt` | Dependências Python do projeto |
 | `gerador_dados_pacientes.py` | Script que gera os dados sintéticos |
 | `dados/dados_sinteticos_idosos.csv` | Dataset gerado (criado ao rodar o script) |
-| `diagnostico_saude_eda.ipynb` | Notebook de análise exploratória e visualizações |
+| `diagnostico_saude_eda.ipynb` | Notebook de análise exploratória (código para executar) |
+| **`diagnostico_saude_eda_executado.ipynb`** | **Notebook já executado — abra este arquivo para ver todas as saídas (tabelas e gráficos) sem rodar o código** |
 | `RELATORIO_PROJETO.md` | Relatório completo do projeto (metodologia, justificativas, resultados) |
 
 ---
